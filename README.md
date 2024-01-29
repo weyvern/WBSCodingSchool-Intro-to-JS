@@ -15,46 +15,37 @@ _Introductory JavaScript Exercises_
 
 </header>
 
-<!--
-  <<< Author notes: Course start >>>
-  Include start button, a note about Actions minutes,
-  and tell the learner why they should take the course.
--->
+## Step 1: Write a function
 
-## Welcome :wave:
+_Time to code! :computer:_
 
-We are about to embark on a series of exercises to showcase some of JavaScript's core principles and concepts.
+**What is a function?**:
 
-- **Who is this for**: Beginner WD student!
-- **What you'll practice**: Conditionals and basic functions.
-- **How long**: This should take you ~1 hour.
+Generally speaking, a `function` is a "subprogram" that can be called by code external (or internal, in the case of recursion) to the function. Like the program itself, a function is composed of a sequence of statements called the function body. Values can be passed to a function as parameters, and the function can return a value.
 
-In this course, you will:
+### :keyboard: Activity: write your functions
 
-1. Create a function that takes parameters.
-2. Practice `if-else` and `switch` statements.
+1. [Clone this repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) on your computer.
+2. Go into the repository directory.
+3. Checkout to a new branch called `my-functions`.
+4. Locate the `myFunctions.js` file. This is our working area.
+5. Create the body of the functions listed in the file without changing the name of the functions.
+6. Once you are ready, commit and `push` your changes to your remote branch `git push origin my-functions`
+7. We will run some tests so, do not remove the `export` keyword before the functions! You will learn about this very very soon!
 
-### How to start this course
+## What happens next?
 
-<!-- For start course, run in JavaScript:
-'https://github.com/new?' + new URLSearchParams({
-  template_owner: 'WBSCodingSchool',
-  template_name: 'Intro-to-JS',
-  owner: '@me',
-  name: 'WBSCodingSchool-Intro-to-JS',
-  description: 'My clone repository',
-  visibility: 'public',
-}).toString()
--->
+:warning: If anything goes wrong, i.e. the code you submitted fails, you will get a notification:
 
-[![start-exercise](https://user-images.githubusercontent.com/1221423/235727646-4a590299-ffe5-480d-8cd5-8194ea184546.svg)](https://github.com/new?template_owner=WBSCodingSchool&template_name=Intro-to-JS&owner=%40me&name=WBSCodingSchool-Intro-to-JS&description=My+clone+repository&visibility=public)
+![Screenshot 2024-01-29 at 19 42 20](https://github.com/WBSCodingSchool/Intro-to-JS/assets/19370560/d86499f5-ebbc-49a9-bdba-a8cbeded584e)
 
-1. Right-click **Start course** and open the link in a new tab.
-2. In the new tab, most of the prompts will automatically fill in for you.
-   - For owner, choose your personal account.
-   - We recommend creating a public repository, as private repositories will [use Actions minutes](https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions).
-   - Scroll down and click the **Create repository** button at the bottom of the form.
-3. After your new repository is created, wait about 20 seconds, then refresh the page. Follow the step-by-step instructions in the new repository's README.
+Follow the link to the workflow that failed to find out what happened!:
+
+![CleanShot 2024-01-29 at 19 44 21](https://github.com/WBSCodingSchool/Intro-to-JS/assets/19370560/01863ac7-706c-4003-9f91-b484b5a4d2a9)
+
+In this case, our function returned `undefined` instead of the expected value!
+
+👍 If everything is ok, GitHub will update this page, if it doesn't wait around 20s and hit refresh!
 
 <footer>
 
