@@ -1,0 +1,13 @@
+{
+  "name": "intro-to-js",
+  "version": "1.0.0",
+  "description": "Introductory exercises for JavaScript",
+  "main": "myFunctions.js",
+  "type": "module",
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
