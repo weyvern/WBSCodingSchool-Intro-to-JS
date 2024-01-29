@@ -15,22 +15,43 @@ _Introductory JavaScript Exercises_
 
 </header>
 
-## Step 1: Write a function
+<!--
+  <<< Author notes: Step 1 >>>
+  Choose 3-5 steps for your course.
+  The first step is always the hardest, so pick something easy!
+  Link to docs.github.com for further explanations.
+  Encourage users to open new tabs for steps!
+  TBD-step-1-notes.
+-->
 
-_Time to code! :computer:_
+## Step 2: Write a function that returns conditionally
 
-**What is a function?**:
+_Congratulations! 🎉 Step one is done!_
 
-Generally speaking, a `function` is a "subprogram" that can be called by code external (or internal, in the case of recursion) to the function. Like the program itself, a function is composed of a sequence of statements called the function body. Values can be passed to a function as parameters, and the function can return a value.
+**What is Control flow?**:
 
-### :keyboard: Activity: write your functions
+The control flow is the order in which the computer executes statements in a script.
 
-1. [Clone this repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) on your computer.
-2. Go into the repository directory.
-3. Checkout to a new branch called `my-functions`.
-4. Locate the `myFunctions.js` file. This is our working area.
+Code is run in order from the first line in the file to the last line, unless the computer runs across the (extremely frequent) structures that change the control flow, such as conditionals and loops.
+
+For example, imagine a script used to validate user data from a webpage form. The script submits validated data, but if the user, say, leaves a required field empty, the script prompts them to fill it in. To do this, the script uses a conditional structure or if...else, so that different code executes depending on whether the form is complete or not:
+
+```js
+if (isEmpty(field)) {
+  promptUser();
+} else {
+  submitForm();
+}
+```
+
+### :keyboard: Activity: create your control flow
+
+1. From your current `my-functions` branch pull the changes from the origin `git pull origin my-functions`. We need to do this to synchronise with the current step! :warning:
+2. Locate the `myConditionals.js` file. This is our working area.
+3. Checkout to a new branch called `my-conditionals`.
+4. Locate the `myConditionals.js` file. This is our working area.
 5. Create the body of the functions listed in the file without changing the name of the functions.
-6. Once you are ready, commit and `push` your changes to your remote branch `git push origin my-functions`
+6. Once you are ready, commit and `push` your changes to your remote branch `git push origin my-conditionals`
 7. We will run some tests so, do not remove the `export` keyword before the functions! You will learn about this very very soon!
 
 ## What happens next?
